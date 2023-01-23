@@ -26,7 +26,6 @@ const initialValues = {
 
 const FormContacts = props => {
   const handleSubmit = (values, { resetForm }) => {
-    console.log(values);
     const { name, number } = values;
     props.addContact({ name: name, number: number });
     resetForm();

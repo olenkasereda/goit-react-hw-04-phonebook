@@ -5,6 +5,8 @@ export const FormInput = styled.input`
   width: 300px;
   padding-left: 45px;
   margin: 10px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
   height: 40px;  
   background-repeat: no-repeat;
   background-image: url('data:image/svg+xml,\
